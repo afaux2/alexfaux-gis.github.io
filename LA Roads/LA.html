@@ -63,13 +63,13 @@
 
         <!-- LA Roadways -->
         <div class="text-image-pair">
+            <div class="image-container">
+                <img src="images/LA Roads.jpg" alt="Your Image">
+            </div>
             <div class="text-container">
                 <h1></h1>
                 <p>I obtained a shapefile of all roadways in LA County from the US Census Bureau and used the 
-                Line Density tool to create a roadway density raster. </p>
-            </div>
-            <div class="image-container">
-                <img src="images/LA Roads.jpg" alt="Your Image">
+                    Line Density tool to create a roadway density raster..</p>
             </div>
         </div>
 
@@ -86,14 +86,15 @@
 
         <!-- Avererage Roadway Density -->
         <div class="text-image-pair">
-            <div class="text-container">
-                <h1>Shows average roadway density per zipcode in LA County</h1>
-                <p>The highest roadway density is in the urban center and becomes less concentrated moving outward.</p>
-            </div>
             <div class="image-container">
                 <img src="images/Road density choro.jpg" alt="Your Image">
             </div>
-        </div>
+            <div class="text-container">
+                <h1>The resulting table was joined with a shape file of LA zip codes to create a map showig average roadway density per zip code.
+                </p>
+            </div>
+        </div>  
+
 
          <!-- Mean NO2 -->
          <div class="text-image-pair">
@@ -101,21 +102,25 @@
                 <img src="images/Mean NO2.jpg" alt="Your Image">
             </div>
             <div class="text-container">
-                <h1>Shows average NO2 levels per zipcode in LA County</h1>
-                <p>The highest concentration of NO2 is in the urban center and becomes less concentrated moving outward..</p>
+                <h1>Satellite data was obtained from the University at Wisconsin Mandison's Center for the environment and Sustainability's website 
+                    and used to create a map showing the average NO2 air concentratiosn forall the zip codes in LA County.
+                </p>
             </div>
         </div>  
         
         <!-- OLS Regression -->
         <div class="text-image-pair">
-            <div class="text-container">
-                <h1></h1>
-                <p>Running the OLS regression showed an adjusted R2 of 0.5712, AIC of 1187.8627, and probability of 0.000000*. </p>
-            </div>
             <div class="image-container">
                 <img src="images/LA OLS.jpg" alt="Your Image">
             </div>
+            <div class="text-container">
+                <h1></h1>
+                <p>Running the OLS regression with roadway density as he independent variable and NO2 concentration as the dependent variable showed 
+                    an adjusted R2 of 0.5712 ans an AIC of 1187.8627.</p>
+            </div>
         </div>
+
+
 
         <!-- GWR -->
         <div class="text-image-pair">
@@ -128,7 +133,7 @@
             </div>
         </div>  
 
-        <!-- GWR -->
+        <!-- Chart -->
         <div class="text-image-pair">
             <div class="image-container">
                 <img src="images/chart.jpg" alt="Your Image">
