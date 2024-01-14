@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .content-container {
+            width: 80%;
+            margin: auto;
+        }
+    
+        h2 {
+            text-align: center; /* Center the title */
+        }
+    
+        /* Changed to block instead of flex to stack image on top of text */
+        .text-image-pair {
+            text-align: center; /* Center-align the container contents */
+            box-sizing: border-box;
+            margin: 20px 0; /* Adjusted for spacing */
+        }
+    
+        /* Center the image and increase its size */
+        .image-container img {
+            width: 80%; /* Adjust the width as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Centers the image */
+        }
+    
+        /* Center the text underneath the image */
+        .text-container {
+            text-align: center; /* Align text to the center */
+            margin-top: 20px; /* Add space between image and text */
+        }
+    
+    </style>
+    
+</head>
+
+<body class="is-preload">
+
+    <!-- Title of the page -->
+
+    <!-- Container for centering content -->
+    <div class="content-container">
+
+        <!-- Chicago Asthma -->
+        <div class="text-image-pair">
+            <div class="image-container">
+                <!-- Image is now larger and centered -->
+                <img src="images/chicago_emissions_map.jpg" alt="Chicago Emissions Map">
+            </div>
+            <div class="text-container">
+                <!-- Text is now centered underneath the image -->
+                <p>This is a map I created in my Urban Applications of GIS class, it shows communities in Chicago grouped by number of children living in community on the left and 
+                    and communities grouped by amount of emissions on the right.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <!-- ... Scripts remain unchanged ... -->
+
+</body>
+
+</html>
